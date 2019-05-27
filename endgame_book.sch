@@ -1,0 +1,343 @@
+EESchema Schematic File Version 4
+LIBS:endgame_book-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:ProMicro U1
+U 1 1 5CB33310
+P 5350 3650
+F 0 "U1" H 5350 4687 60  0000 C CNN
+F 1 "ProMicro" H 5350 4581 60  0000 C CNN
+F 2 "kbd:ProMicro_v2" H 5450 2600 60  0001 C CNN
+F 3 "" H 5450 2600 60  0000 C CNN
+	1    5350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5CB333F3
+P 4150 3300
+F 0 "#PWR07" H 4150 3050 50  0001 C CNN
+F 1 "GND" H 4155 3127 50  0000 C CNN
+F 2 "" H 4150 3300 50  0001 C CNN
+F 3 "" H 4150 3300 50  0001 C CNN
+	1    4150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3100 4150 3100
+Wire Wire Line
+	4150 3100 4150 3200
+Wire Wire Line
+	4650 3200 4150 3200
+Connection ~ 4150 3200
+Wire Wire Line
+	4150 3200 4150 3300
+$Comp
+L power:GND #PWR09
+U 1 1 5CB334E6
+P 6650 3100
+F 0 "#PWR09" H 6650 2850 50  0001 C CNN
+F 1 "GND" H 6655 2927 50  0000 C CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3000 6650 3000
+Wire Wire Line
+	6650 3000 6650 3100
+$Comp
+L power:VCC #PWR08
+U 1 1 5CB335EF
+P 6550 2800
+F 0 "#PWR08" H 6550 2650 50  0001 C CNN
+F 1 "VCC" H 6567 2973 50  0000 C CNN
+F 2 "" H 6550 2800 50  0001 C CNN
+F 3 "" H 6550 2800 50  0001 C CNN
+	1    6550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3200 6550 3200
+Wire Wire Line
+	6550 3200 6550 2800
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5CB3378A
+P 2800 5150
+F 0 "SW1" H 2800 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 5314 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2800 5150 50  0001 C CNN
+F 3 "" H 2800 5150 50  0000 C CNN
+	1    2800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5CB338F9
+P 3950 5150
+F 0 "SW3" H 3950 5405 50  0000 C CNN
+F 1 "SW_PUSH" H 3950 5314 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3950 5150 50  0001 C CNN
+F 3 "" H 3950 5150 50  0000 C CNN
+	1    3950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5CB33990
+P 2800 5950
+F 0 "SW2" H 2800 6205 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 6114 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2800 5950 50  0001 C CNN
+F 3 "" H 2800 5950 50  0000 C CNN
+	1    2800 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5CB33A20
+P 3950 5950
+F 0 "SW4" H 3950 6205 50  0000 C CNN
+F 1 "SW_PUSH" H 3950 6114 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3950 5950 50  0001 C CNN
+F 3 "" H 3950 5950 50  0000 C CNN
+	1    3950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5CB33FEC
+P 3100 5450
+F 0 "D1" V 3146 5382 50  0000 R CNN
+F 1 "D_Small" V 3055 5382 50  0000 R CNN
+F 2 "kbd:D3_SMD" V 3100 5450 50  0001 C CNN
+F 3 "~" V 3100 5450 50  0001 C CNN
+	1    3100 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5CB342C4
+P 4250 5450
+F 0 "D3" V 4296 5382 50  0000 R CNN
+F 1 "D_Small" V 4205 5382 50  0000 R CNN
+F 2 "kbd:D3_SMD" V 4250 5450 50  0001 C CNN
+F 3 "~" V 4250 5450 50  0001 C CNN
+	1    4250 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5CB344FE
+P 4250 6200
+F 0 "D4" V 4296 6132 50  0000 R CNN
+F 1 "D_Small" V 4205 6132 50  0000 R CNN
+F 2 "kbd:D3_SMD" V 4250 6200 50  0001 C CNN
+F 3 "~" V 4250 6200 50  0001 C CNN
+	1    4250 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5CB345EF
+P 3100 6200
+F 0 "D2" V 3146 6132 50  0000 R CNN
+F 1 "D_Small" V 3055 6132 50  0000 R CNN
+F 2 "kbd:D3_SMD" V 3100 6200 50  0001 C CNN
+F 3 "~" V 3100 6200 50  0001 C CNN
+	1    3100 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 5150 3100 5350
+Wire Wire Line
+	4250 5150 4250 5350
+Wire Wire Line
+	4250 5950 4250 6100
+Wire Wire Line
+	3100 5950 3100 6100
+Wire Wire Line
+	3650 5950 3650 5150
+Wire Wire Line
+	2500 5950 2500 5150
+Wire Wire Line
+	4250 6300 3100 6300
+Wire Wire Line
+	4250 5550 3100 5550
+Wire Wire Line
+	3100 5550 2150 5550
+Connection ~ 3100 5550
+Wire Wire Line
+	3100 6300 2150 6300
+Connection ~ 3100 6300
+Wire Wire Line
+	2500 5150 2500 4700
+Connection ~ 2500 5150
+Wire Wire Line
+	3650 5150 3650 4700
+Connection ~ 3650 5150
+Text GLabel 2150 6300 0    50   Input ~ 0
+row1
+Text GLabel 2150 5550 0    50   Input ~ 0
+row0
+Text GLabel 2500 4700 1    50   Input ~ 0
+col0
+Text GLabel 3650 4700 1    50   Input ~ 0
+col1
+Text GLabel 4650 3500 0    50   Input ~ 0
+row0
+Text GLabel 4650 3600 0    50   Input ~ 0
+row1
+Text GLabel 6050 3300 2    50   Input ~ 0
+col0
+Text GLabel 6050 3400 2    50   Input ~ 0
+col1
+NoConn ~ 6050 4000
+NoConn ~ 6050 3900
+NoConn ~ 6050 3800
+NoConn ~ 6050 3700
+NoConn ~ 6050 3600
+NoConn ~ 6050 3500
+NoConn ~ 4650 3700
+NoConn ~ 4650 3800
+NoConn ~ 4650 3900
+NoConn ~ 4650 4000
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5CB3A1C4
+P 7800 2950
+F 0 "SW5" H 7800 3205 50  0000 C CNN
+F 1 "RESET" H 7800 3114 50  0000 C CNN
+F 2 "kbd:ResetSW" H 7800 2950 50  0001 C CNN
+F 3 "" H 7800 2950 50  0000 C CNN
+	1    7800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5CB3A4AB
+P 8250 3050
+F 0 "#PWR010" H 8250 2800 50  0001 C CNN
+F 1 "GND" H 8255 2877 50  0000 C CNN
+F 2 "" H 8250 3050 50  0001 C CNN
+F 3 "" H 8250 3050 50  0001 C CNN
+	1    8250 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 2950 0    50   Input ~ 0
+RST
+Text GLabel 6050 3100 2    50   Input ~ 0
+RST
+Wire Wire Line
+	8100 2950 8250 2950
+Wire Wire Line
+	8250 2950 8250 3050
+Text GLabel 4650 2900 0    50   Input ~ 0
+LED
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5CB3D5D4
+P 3150 2950
+F 0 "J2" H 3070 2625 50  0000 C CNN
+F 1 "LED" H 3070 2716 50  0000 C CNN
+F 2 "kbd:StripLED_rev" H 3150 2950 50  0001 C CNN
+F 3 "~" H 3150 2950 50  0001 C CNN
+	1    3150 2950
+	-1   0    0    1   
+$EndComp
+Text GLabel 3350 2950 2    50   Input ~ 0
+LED
+$Comp
+L power:GND #PWR04
+U 1 1 5CB3E2FF
+P 3650 3050
+F 0 "#PWR04" H 3650 2800 50  0001 C CNN
+F 1 "GND" H 3655 2877 50  0000 C CNN
+F 2 "" H 3650 3050 50  0001 C CNN
+F 3 "" H 3650 3050 50  0001 C CNN
+	1    3650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5CB3E307
+P 3650 2850
+F 0 "#PWR03" H 3650 2700 50  0001 C CNN
+F 1 "VCC" H 3667 3023 50  0000 C CNN
+F 2 "" H 3650 2850 50  0001 C CNN
+F 3 "" H 3650 2850 50  0001 C CNN
+	1    3650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2850 3650 2850
+Wire Wire Line
+	3350 3050 3650 3050
+$Comp
+L kbd:MJ-4PP-9 J1
+U 1 1 5CB47288
+P 3050 3625
+F 0 "J1" H 3080 3901 50  0000 C CNN
+F 1 "MJ-4PP-9" H 3080 3810 50  0000 C CNN
+F 2 "kbd:MJ-4PP-9" H 3325 3800 50  0001 C CNN
+F 3 "~" H 3325 3800 50  0001 C CNN
+	1    3050 3625
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3950 3250
+$Comp
+L power:VCC #PWR05
+U 1 1 5CB492BA
+P 3650 3550
+F 0 "#PWR05" H 3650 3400 50  0001 C CNN
+F 1 "VCC" H 3667 3723 50  0000 C CNN
+F 2 "" H 3650 3550 50  0001 C CNN
+F 3 "" H 3650 3550 50  0001 C CNN
+	1    3650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5CB493FD
+P 3650 3800
+F 0 "#PWR06" H 3650 3550 50  0001 C CNN
+F 1 "GND" H 3655 3627 50  0000 C CNN
+F 2 "" H 3650 3800 50  0001 C CNN
+F 3 "" H 3650 3800 50  0001 C CNN
+	1    3650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3550 3650 3600
+Wire Wire Line
+	3650 3600 3250 3600
+Wire Wire Line
+	3250 3650 3650 3650
+Wire Wire Line
+	3650 3650 3650 3800
+Text GLabel 3750 3700 2    50   Input ~ 0
+data
+NoConn ~ 3250 3550
+NoConn ~ 4650 3300
+NoConn ~ 4650 3400
+NoConn ~ 6050 2900
+Text GLabel 4650 3000 0    50   Input ~ 0
+data
+Wire Wire Line
+	3250 3700 3750 3700
+$EndSCHEMATC

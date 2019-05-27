@@ -1,0 +1,71 @@
+** Drc report for /Users/bti/Perso/keyboards/endgame_book/endgame_book.kicad_pcb **
+** Created on 2019-05-27 12:05:25 **
+
+** Found 18 DRC errors **
+ErrType(45): Footprint has no courtyard defined
+    @ (213.487 mm,107.569 mm): footprint “G***” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (167.386 mm,90.424 mm): footprint “G***” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (185.547 mm,73.787 mm): footprint “G***” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (222.377 mm,86.614 mm): footprint “U1” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (195.707 mm,82.804 mm): footprint “SW2” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (195.707 mm,101.854 mm): footprint “SW4” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (176.657 mm,101.854 mm): footprint “SW3” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (232.156 mm,108.077 mm): footprint “J1” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (208.026 mm,88.392 mm): footprint “J2” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (176.657 mm,82.804 mm): footprint “SW1” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (217.170 mm,113.792 mm): footprint “SW5” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (181.102 mm,74.168 mm): footprint “D1” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (200.406 mm,74.041 mm): footprint “D2” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (181.102 mm,93.091 mm): footprint “D3” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (200.022 mm,93.091 mm): footprint “D4” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (185.547 mm,110.490 mm): footprint “G***” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (167.386 mm,90.551 mm): footprint “G***” has no courtyard defined
+ErrType(45): Footprint has no courtyard defined
+    @ (213.233 mm,107.569 mm): footprint “G***” has no courtyard defined
+
+** Found 9 unconnected pads **
+ErrType(2): Unconnected items
+    @ (182.877 mm,74.168 mm): Pad 1 on F.Cu, Non-copper of D1
+    @ (182.877 mm,74.168 mm): Track 0.250 mm, net [row0] (1) on layer B.Cu, length: 0.175 mm
+ErrType(2): Unconnected items
+    @ (182.877 mm,93.091 mm): Track 0.250 mm, net [row0] (1) on layer B.Cu, length: 0.900 mm
+    @ (182.877 mm,93.091 mm): Pad 1 on F.Cu, Non-copper of D3
+ErrType(2): Unconnected items
+    @ (179.327 mm,74.168 mm): Pad 2 on F.Cu, Non-copper of D1
+    @ (179.327 mm,74.168 mm): Pad 2 on B.Cu, Non-copper of D1
+ErrType(2): Unconnected items
+    @ (198.631 mm,74.041 mm): Pad 2 on F.Cu, Non-copper of D2
+    @ (198.631 mm,74.041 mm): Track 0.250 mm, net [Net-(D2-Pad2)] (3) on layer B.Cu, length: 0.543 mm
+ErrType(2): Unconnected items
+    @ (202.181 mm,74.041 mm): Track 0.250 mm, net [row1] (4) on layer B.Cu, length: 0.725 mm
+    @ (202.181 mm,74.041 mm): Pad 1 on F.Cu, Non-copper of D2
+ErrType(2): Unconnected items
+    @ (201.797 mm,93.091 mm): Pad 1 on F.Cu, Non-copper of D4
+    @ (201.797 mm,93.091 mm): Pad 1 on B.Cu, Non-copper of D4
+ErrType(2): Unconnected items
+    @ (179.327 mm,93.091 mm): Pad 2 on B.Cu, Non-copper of D3
+    @ (179.327 mm,93.091 mm): Pad 2 on F.Cu, Non-copper of D3
+ErrType(2): Unconnected items
+    @ (198.247 mm,93.091 mm): Pad 2 on F.Cu, Non-copper of D4
+    @ (198.247 mm,93.091 mm): Pad 2 on B.Cu, Non-copper of D4
+ErrType(2): Unconnected items
+    @ (208.026 mm,90.932 mm): Track 0.250 mm, net [LED] (11) on layer B.Cu, length: 1.016 mm
+    @ (208.026 mm,90.932 mm): Pad 2 on F.Cu, Non-copper of J2
+
+** End of Report **
